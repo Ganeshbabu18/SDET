@@ -18,10 +18,10 @@ public class Example_2 {
        }
     if ((count!=count1))
     {
-    System.out.println("All Characters Have different number of Occurrences");
+    System.out.println("All Characters Have different number of Occurrences"); //false
     }
     else {
-    	System.out.println("All Characters have equal number if occurrences");
+    	System.out.println("All Characters have equal number if occurrences"); //true
     }
     	
     }
