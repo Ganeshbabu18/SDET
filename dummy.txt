@@ -1,0 +1,34 @@
+package learningjava;
+
+public class Ifelse {
+
+	public static void main(String[] args) {
+		int number1 = 10;
+		int number2 = 20;
+		int number3 = 30;
+		
+		
+		if(number2 > number1)
+		{
+		   System.out.print("The command is correct");
+			
+		   if(number3 == number2)
+			{
+				System.out.println("numbers are equal");
+			}
+		   else 
+			{
+				System.out.println("numbers are not equal");
+			}
+		}
+		else if (number1==number2)
+		{
+			System.out.println("/n The command is equal");
+		}
+		else 
+		{
+			System.out.println("/n The command is wrong");
+		}
+	}
+
+}
